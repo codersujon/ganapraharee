@@ -1,0 +1,19 @@
+{
+    "name": "ganapraharee/api",
+    "description": "Ganapraharee Newspaper REST API",
+    "type": "project",
+    "require": {
+        "php": "^8.3",
+        "vlucas/phpdotenv": "^5.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ganapraharee\\Api\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "MD SUJAN AHMED"
+        }
+    ]
+}
